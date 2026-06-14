@@ -1,0 +1,14 @@
+# 환경변수
+.env
+
+# 학습된 모델 / 산출물
+*.pkl
+*.joblib
+artifacts/
+
+# 주피터 자동 백업 / 파이썬 캐시
+**/.ipynb_checkpoints/
+__pycache__/
+
+# 데이터셋 (용량이 크고 외부 출처)
+datasets/
